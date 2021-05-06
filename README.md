@@ -59,7 +59,7 @@ input.not-empty {
 	 <input type="submit" id="sub" value="Submit" onclick="missingFields()">
 	 <input type="submit" id="sa" value="Save" onclick="DisplayUsername(email)">
 	 <input type="reset" id="re" value="Reset">
-     </p>  
+         </p>  
   </form>  
 </body>
 </html>
