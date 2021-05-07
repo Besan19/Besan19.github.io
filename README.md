@@ -16,7 +16,7 @@ input.not-empty {
 </style>
 </head>
 <body>
-<a href="https://github.com/Besan19/BesanKhalil19.github.io/">Go to old page</a>
+<a href="index.html">Go to old page</a>
 <h2>Internship Application</h2>  
 <p>Please fill out the form below and hit submit to be considered for the internship.</p>
 <script src="jsfile.js"></script>
