@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Besan Khalil</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="CSSFile.css">
+<style>
+.button{
+  background-color: white; 
+  color: black; 
+  font-size: 16px;
+  border: 4px solid #008CBA;
+  padding:15px;
+  text-align: center;
+  float: left;
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+h1,h2{
+color:blue;
+}
+li,p,dt,dd{
+font-size:20px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body style="background-color:#D0FBFA; font-size:4vw;">
+<button class="button" onclick="printPage()">Print Besan’s Resume</button><br>
+<a href="./application.htm">Go to new page</a>
+<h1>Web Development-Assignment 3</h1>
+<h2 onclick="message()">Besan Hosny Ibrahim Khalil</h2>
+<img src="SmartLightUmbrella.jpg" alt="My Picture.">
+<hr>
+<p style="color:blue;"><b>Please click this link: </b></p>
+<a href="https://www.pinterest.com">this is a program to download pictures</a>
+<h2>Summary about me ...</h2>
+<p>
+Hi there! My name is Besan, And i have 19 years old, I finished my high school studies at Kufur Thulth Girls Secondary School, Then i joined An-Najah National University to study Computer Science major, I'm in my second year now, And My GPA is 2.65.
+</p>
+<h2 id="besan">My education background ...</h2>
+<ol id="besan1">
+<li>finished my high school studies.</li>
+<li>studying computer science at An-Najah National University.</li> 
+<li>In 2018, I have participated in the Palestine Science and Technology Fair (PSTF), In the Ministry of Education and Higher Education in Qalqilya, I won sixth place in the first phase, and the second phase was in Ramallah in alhilal al'ahmar Hotel, where the duration of this phase was 3 days, And i didn't win any position at this stage, but it was a wonderful experience, I benefited from several things, including improving the method of explanation, and getting acquainted with the ideas of other projects.</li>
+</ol>
+<h2 onmouseover="changeEdu()" onmouseout="resit()">My work experiences ...</h2>
+<ul onmouseover="changeEdu()" onmouseout="resit()">
+<li>I can code using c++ language.</li>
+<li>I am studying computer science at An-Najah National University.</li>
+</ul>
+<h2>My hobbies ...</h2>
+<dl>
+<dt>*About art:</dt>
+<dd>-drawing.<dd>
+<dd>-singing.</dd>
+<dd>-writing stories.</dd>
+<dd>-clothes designing.</dd>
+<dt>*About computer science:</dt>
+<dd>-coding.</dd>
+<dt>*About other things:</dt>
+<dd>-watching anime.</dd>
+<dd>-listening to music all day long.</dd>
+<dd>-reading stories.</dd>
+</dl>
+<p><span style="background-color:#99FAF8;"><b>~Thank You For Reading~</b></span></p>
+<script>
+function message() {
+  alert("Welcome to Besan site, please let me know if you have any questions");
+}
+function changeEdu() {
+  document.getElementById("besan1").style.color="green";
+  document.getElementById("besan").style.color="green";
+}
+function resit() {
+  document.getElementById("besan1").style.color="black";
+  document.getElementById("besan").style.color="blue";
+}
+function printPage() {
+    alert("Do you want to print this page?")
+    window.print();
+}
+</script>
+</body>
+</html>
